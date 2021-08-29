@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "William Cardenas",
+  "license": "MIT"
+}
