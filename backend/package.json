@@ -4,8 +4,19 @@
   "description": "Backend",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "test", 
+    "start": "node server.js", 
+    "server": "nodemon server.js"
   },
   "author": "William Cardenas",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
